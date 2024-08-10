@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "swiftfiat",
-    "slug": "swiftfiat",
+    "name": "wrongimage",
+    "slug": "wrongimage",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wrongimage.ios"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wrongimage.android"
     },
     "web": {
       "bundler": "metro",
